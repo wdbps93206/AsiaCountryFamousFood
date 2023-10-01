@@ -28,11 +28,7 @@ font-family: 'Nanum Gothic', sans-serif;
     overflow-x: hidden;
   }
 }
-@media screen and (max-width: 768px) {
-  .flex-slide ul li {
-    font-size: 24px;
-  }
-}
+
 .flex-slide:hover {
   flex-grow: 3;
 }
@@ -64,6 +60,7 @@ font-family: 'Nanum Gothic', sans-serif;
   width: 70%;
   padding: 5%;
   top: 25%;
+  bottom: 20px;
   border: 2px solid #f1f1f1;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.45);
@@ -72,8 +69,8 @@ font-family: 'Nanum Gothic', sans-serif;
 }
 @media screen and (max-width: 768px) {
   .flex-about {
-    background-color:transparent;
-    padding: 0%;
+    /* background-color:transparent; */
+    padding: 10px;
     border: 0px solid #f1f1f1;
   }
 }
@@ -88,6 +85,17 @@ font-family: 'Nanum Gothic', sans-serif;
     flex-grow: 1;
   }
   
+}
+@media screen and (max-width: 768px) {
+  .flex-slide p {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .flex-slide ul li {
+    font-size: 1em;
+  }
 }
 
 /* country */
